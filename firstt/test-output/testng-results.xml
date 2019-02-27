@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Before Suite]]>
+    </line>
+    <line>
+      <![CDATA[Before test]]>
+    </line>
+    <line>
+      <![CDATA[Second test Method]]>
+    </line>
+    <line>
+      <![CDATA[Before class]]>
+    </line>
+    <line>
+      <![CDATA[Before method]]>
+    </line>
+    <line>
+      <![CDATA[first test method]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[After Class]]>
+    </line>
+    <line>
+      <![CDATA[After Test]]>
+    </line>
+    <line>
+      <![CDATA[After Suite]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="97" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="97" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+      <class name="firstt.TestTestNg">
+        <test-method status="PASS" signature="test1()[pri:0, instance:firstt.TestTestNg@735b5592]" name="test1" is-config="true" duration-ms="18" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:firstt.TestTestNg@735b5592]" name="test2" is-config="true" duration-ms="0" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Before test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:firstt.TestTestNg@735b5592]" name="test3" is-config="true" duration-ms="1" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Before class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:firstt.TestTestNg@735b5592]" name="test4" is-config="true" duration-ms="0" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Before method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test()[pri:1, instance:firstt.TestTestNg@735b5592]" name="test" duration-ms="4" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[first test method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:firstt.TestTestNg@735b5592]" name="test5" is-config="true" duration-ms="1" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:firstt.TestTestNg@735b5592]" name="test6" is-config="true" duration-ms="0" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test7()[pri:0, instance:firstt.TestTestNg@735b5592]" name="test7" is-config="true" duration-ms="0" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="test8()[pri:0, instance:firstt.TestTestNg@735b5592]" name="test8" is-config="true" duration-ms="1" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[After Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+      </class> <!-- firstt.TestTestNg -->
+      <class name="firstt.TestTestNg1">
+        <test-method status="PASS" signature="test()[pri:0, instance:firstt.TestTestNg1@58651fd0]" name="test" duration-ms="11" started-at="2019-02-27T10:06:30Z" finished-at="2019-02-27T10:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Second test Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- firstt.TestTestNg1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
