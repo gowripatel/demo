@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AmazonSearchbox {
 	
+	
 	static
 	{
 		System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
