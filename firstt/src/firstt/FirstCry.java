@@ -30,9 +30,9 @@ public class FirstCry {
 				System.out.println("Bold categories : "+babyClothes.get(j).getText());
 			}
 			System.out.println("---------------------------------------------");
-			for (int j = 0; j < kidsClothes.size(); j++) {
+			for (int k = 0; k < kidsClothes.size(); k++) {
 				Thread.sleep(500);
-				System.out.println("Bold categories : "+kidsClothes.get(j).getText());
+				System.out.println("Bold categories : "+kidsClothes.get(k).getText());
 			}
 			System.out.println("---------------------------------------------");
 			
