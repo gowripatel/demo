@@ -6,7 +6,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="F:/RANJU/soft/SELENIUM/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="F:/RANJU/soft/SELENIUM/selenium-server-standalone-3.141.59.jar" sourcepath="C:/Program Files/Java/jdk-11.0.2/lib/selenium-master.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="https://seleniumhq.github.io/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="F:/RANJU/soft/SELENIUM/selenium-java-3.141.59/byte-buddy-1.8.15.jar"/>
 	<classpathentry kind="lib" path="F:/RANJU/soft/SELENIUM/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="F:/RANJU/soft/SELENIUM/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
