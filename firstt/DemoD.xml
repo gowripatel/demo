@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite13" thread-count="5" parallel="tests">
+
+  <test  name="Thread1">
+ <parameter name="filmname" value="bharat"></parameter>
+   <classes>
+    <class name="dependsOnGroups.DemoD"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test  name="Thread2">
+   <parameter name="filmname" value="super"></parameter>
+   <classes>
+      <class name="dependsOnGroups.DemoD"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite13 -->
