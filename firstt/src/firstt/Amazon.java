@@ -32,6 +32,7 @@ public void test()
 	searchIcon.click();
 	List<WebElement> allLinks = driver.findElements(By.xpath("//h2"));
 	List<WebElement> costofLink = driver.findElements(By.xpath("//div[@class='a-column a-span7']/descendant::div[@class='a-row a-spacing-none']/a/descendant::span[@class='currencyINR']"));
+	System.out.println(costofLink.size());
 	for(int i=0;i<allLinks.size();i++)
 	{
         String linkText = allLinks.get(i).getText();
