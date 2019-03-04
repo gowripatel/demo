@@ -8,7 +8,7 @@ public class PrintAll {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "./SeleniumServer/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("http//facebook.com");
+		driver.get("http//bookmyshow.com");
 		System.out.println("The number of images present are : "+driver.findElements(By.tagName("img")).size());
 		System.out.println("The number of links present are : "+driver.findElements(By.tagName("a")).size());
 		System.out.println("The number of buttons present are : "+driver.findElements(By.xpath("//input[@type='submit']")).size());
