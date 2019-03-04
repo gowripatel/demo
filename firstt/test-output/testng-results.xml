@@ -1,155 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[Beforesuite]]>
+      <![CDATA[m1]]>
     </line>
     <line>
-      <![CDATA[Beforetest]]>
+      <![CDATA[create user]]>
     </line>
     <line>
-      <![CDATA[Beforeclass]]>
-    </line>
-    <line>
-      <![CDATA[Beforemethod]]>
-    </line>
-    <line>
-      <![CDATA[my test a]]>
-    </line>
-    <line>
-      <![CDATA[Aftermethod]]>
-    </line>
-    <line>
-      <![CDATA[Afterclass]]>
-    </line>
-    <line>
-      <![CDATA[Beforeclass]]>
-    </line>
-    <line>
-      <![CDATA[Beforemethod]]>
-    </line>
-    <line>
-      <![CDATA[Test]]>
-    </line>
-    <line>
-      <![CDATA[Aftermethod]]>
-    </line>
-    <line>
-      <![CDATA[Afterclass]]>
-    </line>
-    <line>
-      <![CDATA[Aftertest]]>
-    </line>
-    <line>
-      <![CDATA[Aftersuite]]>
+      <![CDATA[login user]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="47" started-at="2019-02-27T10:07:24Z" finished-at="2019-02-27T10:07:25Z">
+  <suite name="Suite" duration-ms="47" started-at="2019-02-28T08:38:25Z" finished-at="2019-02-28T08:38:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47" started-at="2019-02-27T10:07:24Z" finished-at="2019-02-27T10:07:25Z">
-      <class name="firstt.TestA">
-        <test-method status="PASS" signature="Beforesuite()[pri:0, instance:firstt.TestA@18a00e3]" name="Beforesuite" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:24Z" finished-at="2019-02-27T15:37:24Z">
+    <test name="Test" duration-ms="47" started-at="2019-02-28T08:38:25Z" finished-at="2019-02-28T08:38:25Z">
+      <class name="firstt.M">
+        <test-method status="PASS" signature="m1()[pri:0, instance:firstt.M@18ad742]" name="m1" duration-ms="16" started-at="2019-02-28T14:08:25Z" finished-at="2019-02-28T14:08:25Z">
           <reporter-output>
             <line>
-              <![CDATA[Beforesuite]]>
+              <![CDATA[m1]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Beforesuite -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:firstt.TestA@18a00e3]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:24Z" finished-at="2019-02-27T15:37:24Z">
+        </test-method> <!-- m1 -->
+      </class> <!-- firstt.M -->
+      <class name="firstt.N">
+        <test-method status="PASS" signature="createuser()[pri:1, instance:firstt.N@24a67]" name="createuser" duration-ms="0" started-at="2019-02-28T14:08:25Z" finished-at="2019-02-28T14:08:25Z">
           <reporter-output>
             <line>
-              <![CDATA[Beforeclass]]>
+              <![CDATA[create user]]>
             </line>
           </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:firstt.TestA@18a00e3]" name="beforetest" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:24Z" finished-at="2019-02-27T15:37:24Z">
+        </test-method> <!-- createuser -->
+        <test-method status="PASS" signature="loginuser()[pri:3, instance:firstt.N@24a67]" name="loginuser" duration-ms="0" started-at="2019-02-28T14:08:25Z" finished-at="2019-02-28T14:08:25Z">
           <reporter-output>
             <line>
-              <![CDATA[Beforetest]]>
+              <![CDATA[login user]]>
             </line>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:firstt.TestA@18a00e3]" name="test" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[my test a]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterclass()[pri:0, instance:firstt.TestA@18a00e3]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Afterclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:firstt.TestA@18a00e3]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Aftermethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:firstt.TestA@18a00e3]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Beforemethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:firstt.TestA@18a00e3]" name="aftertest" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Aftertest]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-        <test-method status="PASS" signature="aftersuite()[pri:0, instance:firstt.TestA@18a00e3]" name="aftersuite" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Aftersuite]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- aftersuite -->
-      </class> <!-- firstt.TestA -->
-      <class name="firstt.Testng1">
-        <test-method status="PASS" signature="test()[pri:0, instance:firstt.Testng1@8b7f67]" name="test" duration-ms="16" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:firstt.Testng1@8b7f67]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Beforeclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:firstt.Testng1@8b7f67]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Beforemethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="afterclass()[pri:0, instance:firstt.Testng1@8b7f67]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Afterclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:firstt.Testng1@8b7f67]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-02-27T15:37:25Z" finished-at="2019-02-27T15:37:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Aftermethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-      </class> <!-- firstt.Testng1 -->
+        </test-method> <!-- loginuser -->
+      </class> <!-- firstt.N -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
